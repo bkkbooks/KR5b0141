@@ -1,0 +1,53 @@
+canonical_identifier: bkk:krp/KR5b0141/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0141/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上洞玄靈寶智慧罪根上品大戒經
+  date: '2015-08-28 23:49:57.821539'
+  source:
+    repository: kanripo
+    path: KR5b0141
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0141_000-HFL.yaml, hash: 'sha256:c32351866bb069e7179f0ee9f2cc1e0f05a8098cb80984d85ac465288ecbcc01'}
+  - {seq: 1, filename: KR5b0141_001-HFL.yaml, hash: 'sha256:b2f007fceafd0ea0e454863167793ea4b2d61bc4b570ed59e1713c0580ee2d26'}
+  - {seq: 2, filename: KR5b0141_002-HFL.yaml, hash: 'sha256:b7718a9804fa440aabe88f8f05751f96fb3cb58b77d7ab23bdf822326dd91c37'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5b0141_001-HFL.markers.yaml, hash: 'sha256:b3b99dd8223b8d1e22d0b729751126297bfd691b52508d1703e1165cf515bd87'}
+  - {seq: 2, role: markers, filename: assets/KR5b0141_002-HFL.markers.yaml, hash: 'sha256:bcdc5fb5a32fa480da0530bed63952b93445bd207da34b0f79ef677c68901d05'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5b0141_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 2944
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5b0141_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 788
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:7fddd2b256c0b8cd14876d32f208cd5abb1b79c643ae88b1b11a6a17c8a2f937
